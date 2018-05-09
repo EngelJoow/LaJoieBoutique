@@ -1,61 +1,188 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body { 
+    /* The image used */
+    background-image: url("../imgs/background.png");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-nav li a:hover {
+    color:#dc5258 !important;
+}
+
+.navbar{
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+li{
+    font-family: 'Roboto';
+    font-size: 15px;
+    box-sizing: border-box;
+    margin: 0 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.logo{
+    width: 25%;
+    margin: 20px 0 15px 0;
+}
+
+
 .conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+
+footer{
+    color:  rgba(243, 236, 224, 1);
+    background-color: rgba(42, 42, 40, 1);
+    margin-bottom: 0;
+}
+
+
+footer img{
+    width: 15%;
+    margin: 10px;
+}
+
+.scroll{
     text-align: center;
 }
-
-/*
-
-/*
-
-.menu-footer{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    margin: 0;
+.scroll img{
+   
+    width: 5%;
+    margin: 10px;
 }
-
-.menu-footer1{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-}
-
-footer {
-    background-color: #323534;
-    font-size: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2%;
-}
-
-.menu-footer1{
-    color: aliceblue;
-    font-size: 120%;
-    margin: 10% 0;
-    list-style: none;
-    flex-direction: column;
-}
-
-.icons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-*/
 
 .footer2 {
     text-align: center;
     color: aliceblue;
     width: 100%;
     background-color: #292A2A;
-    font-size: 85%;
+    font-size: 15px;
     opacity: 0.5;
+    margin: 5px;
 }
+
+/* Sobre Style */
+
+/* .navbar-nav li a:hover {
+    color:#dc5258 !important;
+}
+
+main {
+    padding-top: 60px;
+}
+
+.conteudo {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.text p {
+    font-family: 'Poiret One', cursive;
+}
+
+img {
+    max-width: 500px;
+}
+
+footer{
+    color:#2a2a28;
+    font-size: 12px;
+} */
+
+
+/* Sapatos em Casa  Style */
+
+/* body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {
+    font-size: 16px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+#navr {
+    word-spacing:10px;
+    align-items: center;
+}
+
+.bg-1 {
+    background-size:cover;
+    background-color:#e4cdc1;
+    opacity: 0.4;
+    width:100%;
+    min-height:250vh;
+    color:black;
+    margin-top:70px;    
+            }
+
+#shoes p {
+    color: black;
+   
+}
+
+.bg-2 {
+    background-color: #2a2a28;
+  
+    color: #ffffff;
+}
+
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+footer{
+    color:#2a2a28;
+    font-size: 12px;
+}
+
+.navbar-nav li a:hover {
+    color:#dc5258 !important;
+} */
 

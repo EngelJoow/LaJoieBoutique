@@ -1,5 +1,8 @@
 
 *{
+  
+    font-family: 'Poiret One',cursive;
+
     font-family: 'Dosis', sans-serif;
 }
 
@@ -9,8 +12,6 @@ body {
     height: 100%;
     
 }
-
-
 
 body { 
     /* The image used */
@@ -26,11 +27,14 @@ body {
     background-size: cover;
 }
 
+/* NAVBAR */
+
 .navbar-nav li a:hover {
     color:#dc5258 !important;
 }
 
 .navbar{
+    padding: 30px;
     border-width: 0px;
     -webkit-box-shadow: 0px 0px;
     box-shadow: 0px 0px;
@@ -38,24 +42,95 @@ body {
     background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
     background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
     background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    knob 
+    background: rgba(42,42,40,0.65);
+    background: -moz-linear-gradient(top, rgba(42,42,40,0.65) 0%, rgba(42,42,40,0.65) 2%, rgba(226,203,191,0.63) 99%, rgba(228,205,193,0.63) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(42,42,40,0.65)), color-stop(2%, rgba(42,42,40,0.65)), color-stop(99%, rgba(226,203,191,0.63)), color-stop(100%, rgba(228,205,193,0.63)));
+    background: -webkit-linear-gradient(top, rgba(42,42,40,0.65) 0%, rgba(42,42,40,0.65) 2%, rgba(226,203,191,0.63) 99%, rgba(228,205,193,0.63) 100%);
+    background: -o-linear-gradient(top, rgba(42,42,40,0.65) 0%, rgba(42,42,40,0.65) 2%, rgba(226,203,191,0.63) 99%, rgba(228,205,193,0.63) 100%);
+    background: -ms-linear-gradient(top, rgba(42,42,40,0.65) 0%, rgba(42,42,40,0.65) 2%, rgba(226,203,191,0.63) 99%, rgba(228,205,193,0.63) 100%);
+    background: linear-gradient(to bottom, rgba(42,42,40,0.65) 0%, rgba(42,42,40,0.65) 2%, rgba(226,203,191,0.63) 99%, rgba(228,205,193,0.63) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a28', endColorstr='#e4cdc1', GradientType=0 );
+
 }
 
 li{
     font-family: 'Dosis';
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     box-sizing: border-box;
     margin: 0 20px;
+    color: rgba(4, 4, 4, 1);
 }
 
-header {
+/* HEADER */
+
+.brand-logo{
     text-align: center;
+    width: 30%;
+    margin: 45px;  
+    margin-top: 100px;
+} 
+
+#marca{
+    background-color:  rgba(228, 205, 193, 0.514);
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
 }
 
-.logo{
-    width: 20%;
-    margin: 80px 0 70px 0;
+.svg-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    width: 380px;  
+  }
+  .shape {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+    fill: transparent;
+    stroke:  rgba(220, 82, 88, 1);
+    border-bottom: 5px solid black;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+  }
+  .text {
+    font-family: 'Poiret One';
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 5px;
+    color: rgba(42, 42, 40, 1);
+    top: -50px;
+    position: relative;
+  }
+  .svg-wrapper:hover .shape {
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+  }
+
+/* CAROUSEL */
+
+.carousel-item{
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    top: -70px;    
 }
+
+@media(max-width:720px){
+   .carousel-item{
+    top:0px;
+    width: 100%;
+    font-size:12px;
+    background-size:cover;
+   } 
+}
+
+
+/* CONTEUDO  */
 
 
 .conteudo{
@@ -77,6 +152,8 @@ header {
     color: rgba(42, 42, 40, 1);
 }
 
+/* FOOTER */
+
 .lead {
     font-size: 1.25rem;
     font-weight: 400;
@@ -85,7 +162,7 @@ header {
 }
 
 
- footer {
+footer {
     color:rgba(243, 236, 224, 1);
 }
 
@@ -124,3 +201,5 @@ footer .footer-below {
     padding: 15px 0px;
     background-color: rgba(220, 82, 88, 1);
 }
+
+/* teste */

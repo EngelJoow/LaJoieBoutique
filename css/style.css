@@ -67,16 +67,13 @@ li{
 
 .brand-logo{
     text-align: center;
-    width: 30%;
-    margin: 45px;  
-    margin-top: 100px;
+    width: 40%;
+    margin: 40px;
+    margin-top: 130px;
 } 
 
 #marca{
-    background-color:  rgba(228, 205, 193, 0.514);
     text-align: center;
-    height: 100%;
-    overflow: hidden;
 }
 
 .svg-wrapper {
@@ -152,6 +149,12 @@ li{
     color: rgba(42, 42, 40, 1);
 }
 
+#leadfalse {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(42, 42, 40, 0.652);
+}
+
 /* FOOTER */
 
 .lead {
@@ -203,3 +206,152 @@ footer .footer-below {
 }
 
 /* teste */
+
+
+/*Início da estilização do Sapatos em Casa*/
+
+.display-4{
+    margin-top:100px;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: center;
+ }
+
+.small, .display-4, .display-5 {
+    margin-right:150px;
+    margin-left:150px;
+    text-align: center;
+} 
+
+h3 {
+    font-weight: bold;
+}
+
+.lead {
+    margin-right: 280px;
+    margin-left: 280px;
+    text-align:center;
+    font-size: 32px;
+}
+
+section {
+    padding-bottom: 100px;
+}
+
+.btn {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+ @media(max-width:320px){
+    .lead {
+        font-size: 24px;
+        margin:0 auto;
+}
+
+.display-4, .display-5 {
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.small {
+    font-size: 12px;
+    margin: 0 auto;
+}
+    
+    img {
+        width:40%;
+        margin-top: 10px;
+    }
+    .carousel-item {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 0;
+    }
+
+    #carouselExampleIndicators {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 0;
+    }
+ }
+
+ /* FInal da estilização do Sapatos em Casa */
+
+ /* Começo da estilização do SOBRE */
+.sobre {
+    margin-top: 100px;
+}
+
+.sobremarca {
+    display: flex;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.responsivo  img {
+    margin-top: 15px;
+}
+
+.marca {
+    margin-left: 30px;
+}
+
+.history {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.history img {
+    height: 474px;
+}
+
+.sobrehistory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 485px;
+    margin-left: 15px;
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 320px){
+    .responsivo {
+        text-align: center;
+    }
+    
+    
+    .sobremarca{
+    display: block;
+    }
+
+    .marca {
+        text-align: center;
+    }
+
+    .history{
+        flex-direction: column;
+    }
+
+    .history img {
+        width: 50%;
+        height: 50%;
+        margin: 0 auto;
+    }
+
+    .sobrehistory{
+    display: block;
+    width: auto;
+    text-align: center;
+    }
+}
+ /* FINAL ESTILIZAÇÂO DO SOBRE */
+     

@@ -1,5 +1,5 @@
 
-# La Joie Boutique
+# La Joie Boutique , An Awesome project
 
       PROJETO
       
